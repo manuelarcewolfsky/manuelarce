@@ -22,10 +22,11 @@ I help businesses move to the cloud with confidence. With 20+ years in tech and 
 | Microsoft Certified: Azure Fundamentals | BE529F-5T263D | Aug 20, 2020 | N/A |
 | Microsoft Certified Trainer (MCT) | - | - | - |
 
-### Partner Designations
-- **Solutions Partner for Infrastructure (Azure)** – Successfully passed 4 times
-- **Solutions Partner for Data & AI (Azure)**
-- **Solutions Partner for Modern Work**
+### Partner Designations Expertise
+I help Cloud Solution Providers (CSPs) achieve and maintain these prestigious Microsoft partner certifications:
+- **Solutions Partner for Infrastructure (Azure)** – Successfully guided 4 organizations through the certification process
+- **Solutions Partner for Data & AI (Azure)** – Expert guidance for data platform and AI solution requirements
+- **Solutions Partner for Modern Work** – Comprehensive support for Microsoft 365 and collaboration certifications
 
 ## Expertise & Specializations
 
@@ -54,7 +55,7 @@ This designation validates proven ability to design, implement, and manage enter
 - 📚 **Documentation & Knowledge Transfer** – Create architecture diagrams, runbooks, and training for your teams
 
 ### Solutions Partner for Data & AI (Azure)
-Specialized expertise in building intelligent, data-driven solutions on Azure's comprehensive data and AI platform.
+I help Cloud Solution Providers (CSPs) achieve Solutions Partner for Data & AI accreditation. I bring specialized expertise in building intelligent, data-driven solutions on Azure's comprehensive data and AI platform.
 
 **What This Accreditation Represents:**
 This designation validates the ability to architect, implement, and manage modern data platforms and AI solutions. It demonstrates expertise in transforming raw data into actionable insights and implementing AI capabilities that drive business value.
@@ -78,7 +79,7 @@ This designation validates the ability to architect, implement, and manage moder
 - ⚡ **Real-time Analytics Solutions** – Build streaming data pipelines for IoT, log analytics, and real-time business intelligence
 
 ### Solutions Partner for Modern Work
-Expert-level knowledge in transforming workplace productivity through Microsoft 365 and modern collaboration technologies.
+I help Cloud Solution Providers (CSPs) achieve Solutions Partner for Modern Work accreditation. I bring expert-level knowledge in transforming workplace productivity through Microsoft 365 and modern collaboration technologies.
 
 **What This Accreditation Represents:**
 This designation validates expertise in deploying, managing, and optimizing Microsoft 365 environments that enable secure, productive, and collaborative work experiences. It demonstrates capability in modernizing workplace technology while maintaining security and compliance.
@@ -157,6 +158,17 @@ As a Microsoft Intune specialist, I help organizations modernize their endpoint 
 - 🏢 **Enterprise Deployment** – Large-scale rollouts with Autopilot, user communication, and helpdesk preparation
 
 ## Professional Experience
+
+### Persistent Systems – Manager | Remote | Sep 2023 – Sep 2025
+
+Skillfully managed a team of engineers delivering Microsoft Azure consultancy services; responsible for delegating tasks, delivering high-quality services, driving performance improvements, and closely monitoring KPIs to ensure client satisfaction and retention.
+
+**Key Achievements:**
+- 🤝 **Team Transformation** – Adeptly unified a previously unorganized team, fostering camaraderie and a collaborative team environment among engineers by facilitating cross-training, knowledge sharing, and shadowing
+- 📈 **Revenue Growth** – Successfully increased engineer utilization from 12% to a remarkable 56% by proactively identifying work opportunities and optimizing resource allocation, thereby contributing to a current revenue of $1.2M
+- 📊 **Strategic Reporting** – Delivered monthly reviews to Microsoft management, providing recommendations and insights into team performance and data trends
+- 🚀 **Hands-On Leadership** – Took initiative to personally handle engagements and deliveries amid knowledge gaps to ensure project success
+- 🔧 **Process Optimization** – Created a Microsoft DevOps solution to track and manage team activities, enhancing efficiency across the team
 
 ### Lunavi – Cloud Consultant & Principal Engineer
 
