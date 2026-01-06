@@ -7,20 +7,22 @@
 :root {
     --primary-color: #0078d4;
     --secondary-color: #106ebe;
-    --dark-bg: #1a1a1a;
-    --light-bg: #f5f5f5;
-    --text-dark: #2c2c2c;
-    --text-light: #666;
-    --card-bg: #ffffff;
-    --border-color: #e0e0e0;
+    --dark-bg: #0d1117;
+    --darker-bg: #010409;
+    --card-bg: #161b22;
+    --light-bg: #1f2937;
+    --text-dark: #e6edf3;
+    --text-light: #8b949e;
+    --border-color: #30363d;
     --accent-color: #00bcf2;
+    --hover-bg: #21262d;
 }
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.6;
     color: var(--text-dark);
-    background-color: var(--light-bg);
+    background-color: var(--darker-bg);
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
@@ -335,11 +337,12 @@ h2 {
 
 /* Footer */
 footer {
-    background-color: var(--dark-bg);
-    color: white;
+    background-color: var(--card-bg);
+    color: var(--text-dark);
     text-align: center;
     padding: 30px 20px;
     margin-top: 60px;
+    border-top: 1px solid var(--border-color);
 }
 
 footer p {
@@ -559,7 +562,7 @@ footer p {
 
 /* Shimmer Effect for Highlights */
 .project-card.highlight {
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background: linear-gradient(135deg, var(--card-bg) 0%, var(--light-bg) 100%);
     position: relative;
     overflow: hidden;
 }
@@ -605,7 +608,7 @@ footer p {
 
 /* Gradient Text Animation */
 h2 {
-    background: linear-gradient(45deg, var(--text-dark), var(--primary-color));
+    background: linear-gradient(45deg, var(--text-dark), var(--accent-color));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -675,7 +678,7 @@ img {
 @supports (backdrop-filter: blur(10px)) or (-webkit-backdrop-filter: blur(10px)) {
     .expertise-card,
     .project-card {
-        background: rgba(255, 255, 255, 0.9);
+        background: rgba(22, 27, 34, 0.8);
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
     }
@@ -702,4 +705,118 @@ button:focus {
 ::-moz-selection {
     background: var(--primary-color);
     color: white;
+}
+/* Additional Dark Theme Styles */
+.cert-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.cert-table th,
+.cert-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.cert-table th {
+    background-color: var(--light-bg);
+    color: var(--accent-color);
+    font-weight: 600;
+}
+
+.cert-table tr:hover {
+    background-color: var(--hover-bg);
+}
+
+.partner-designations {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: var(--light-bg);
+    border-radius: 8px;
+    border-left: 4px solid var(--accent-color);
+}
+
+.partner-designations h3 {
+    color: var(--accent-color);
+    margin-bottom: 15px;
+}
+
+.partner-designations ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.partner-designations li {
+    padding: 8px 0;
+    color: var(--text-dark);
+}
+
+.services-list p {
+    padding: 10px 0;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.job-description {
+    color: var(--text-light);
+    margin-bottom: 15px;
+    line-height: 1.7;
+}
+
+.specialization-section {
+    margin-top: 40px;
+    padding: 30px;
+    background-color: var(--light-bg);
+    border-radius: 8px;
+    border-left: 4px solid var(--primary-color);
+}
+
+.specialization-section h3 {
+    color: var(--accent-color);
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.specialization-section h4 {
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    margin: 20px 0 10px 0;
+}
+
+.specialization-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.specialization-section ul li {
+    padding: 8px 0 8px 30px;
+    position: relative;
+    line-height: 1.7;
+}
+
+.specialization-section ul li::before {
+    content: "✅";
+    position: absolute;
+    left: 0;
+}
+
+.help-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.help-list li {
+    padding: 10px 0 10px 35px;
+    position: relative;
+    line-height: 1.7;
+    color: var(--text-dark);
+}
+
+.help-list li::before {
+    content: attr(data-icon);
+    position: absolute;
+    left: 0;
+    font-size: 1.2rem;
 }
