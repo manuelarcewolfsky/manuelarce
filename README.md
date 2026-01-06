@@ -28,6 +28,13 @@ I help Cloud Solution Providers (CSPs) achieve and maintain these prestigious Mi
 - **Solutions Partner for Data & AI (Azure)** – Expert guidance for data platform and AI solution requirements
 - **Solutions Partner for Modern Work** – Comprehensive support for Microsoft 365 and collaboration certifications
 
+## Training & Workshops
+
+- **Sophos XG Admin** (2022)
+- **Sophos XG Architect** (2022)
+- **Microsoft Certified Trainer** (2022)
+- **ISO 27001 Internal Auditor** (2021)
+
 ## Expertise & Specializations
 
 ### Solutions Partner for Infrastructure (Azure)
