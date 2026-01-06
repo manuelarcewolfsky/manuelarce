@@ -182,6 +182,73 @@ Skilled cloud consultant and principal engineer delivering quality cloud migrati
 - ✅ **Compliance Leadership** – Played a key role in contributing to compliance and the successful attainment of the Microsoft MSP certification
 - ⚡ **Automation Innovation** – Enhanced the efficiency and reliability of cloud deployments by implementing automation using Bicep
 
+### Prometric (Intertec) – SCCM Architect | Remote | 2023 – 2024
+
+Focused on architecture, automation, and efficiency improvements to effectively manage and optimize a complex SCCM environment with 600+ domains, ensuring seamless upgrades, deployments, and high availability and performance across a vast network of devices.
+
+**Key Achievements:**
+- 🔄 **Large-Scale Device Upgrades** – Upgraded 9,000+ devices from Windows 10 version 1609 to 22H2 with automated processes to minimize impact on production
+- ⚡ **Record-Breaking Performance** – Upgraded 10,000 devices within six months, a task that had eluded others for three years—ensured zero downtime, proving critical for candidates taking certification exams across 600 locations and various time zones
+- 🏗️ **Architecture Excellence** – Managed complex SCCM environment spanning 600+ domains with focus on high availability and performance
+- 🤝 **Leadership & Training** – Led team initiatives, facilitated workshops, and provided comprehensive staff training and support
+
+### Amazon – Technical Account Manager | Remote | 2022 – 2023
+
+Provided strategic guidance and technical expertise to conduct training sessions, deliver tailored recommendations and solutions, and optimize customers' use of AWS infrastructure.
+
+**Key Achievements:**
+- 🎯 **POC Development** – Designed and implemented multiple proof-of-concepts, demonstrating AWS capabilities and driving customer adoption
+- 🤝 **Relationship Management** – Cultivated and maintained strong customer relationships, collaborating with internal AWS teams to address customer needs and feedback
+- 📚 **Training & Education** – Conducted strategic training sessions and provided expert technical guidance to maximize AWS infrastructure utilization
+
+### Auxis – Contractor | Remote | 2021
+
+Stepped into a contractor role to upgrade and migrate the Microsoft Active Directory environment from 2003 to 2012 R2 and subsequently migrate the workload to Azure cloud.
+
+**Key Achievements:**
+- ⏱️ **Accelerated Delivery** – Completed complex AD migration within six months (50% faster than the one-year timeline) with minimal disruptions
+- 📊 **Project Management Excellence** – Developed detailed plans, remained within budget, and effectively coordinated with stakeholders
+- 🔧 **Proactive Preparation** – Established professional-grade lab environment for thorough testing before customer engagement
+
+### Intertec – Active Directory Migration Specialist (Contractor) | Remote | 2020
+
+Successfully migrated Active Directory from on-premise to the cloud, accomplishing this feat one month before the deadline to enhance operational efficiency and scalability.
+
+**Key Achievements:**
+- ⚡ **Early Completion** – Delivered cloud migration one month ahead of schedule
+- 🔄 **Seamless Upgrade** – Upgraded Microsoft Active Directory from 2008 R2 to 2016 with minimal operational impact
+- 🛡️ **Post-Migration Support** – Ensured stability and performance of new Azure environment through comprehensive support
+
+### Additional Experience
+
+**Green House Data – Senior System Administrator**
+- Resolved complex issues for multiple customers to enhance IT operations and reliability
+- Achieved 85% success rate in customer surveys and received formal offer for professional service role
+
+**Greenslate – Senior System Administrator**
+- Enhanced developer productivity by coordinating and deploying IT resources for the Costa Rica office
+- Streamlined software release process, contributing to timely and reliable software deployments
+
+**Microsoft – Senior Escalation Engineer**
+- Recognized as team's best engineer based on performance metrics and customer surveys
+- Maintained 92% positive feedback rate in high-stress role ensuring quality service
+
+**Fusion Hit – SCCM & Active Directory Specialist**
+- Improved system performance and security by upgrading Active Directory to Windows Server 2016
+- Executed upgrade with minimal impact on operations
+
+**Creganna Medical – IT Manager**
+- Led IT infrastructure expansion into two new buildings, meeting all requirements and facilitating company growth
+- Established strong vendor relationships, optimizing services and reducing company costs
+
+**Samtec – Exchange Administrator**
+- Successfully upgraded Exchange Service from 2003 to 2010, ensuring seamless compatibility
+- Migrated 5,000+ user accounts with minimal disruption to operations
+
+**DHL Express – Logistics Systems Implementation Specialist**
+- Pioneered implementation of scanning technology in Costa Rica, improving tracking and delivery
+- Garnered global recognition for expertise in company systems
+
 ## Currently Building
 
 🐺 **WolfSky Cloud Platform** – A comprehensive business solution for MSPs featuring change management and IT operations tools
