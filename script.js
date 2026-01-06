@@ -21,6 +21,12 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(section);
     });
 
+    // Animate service cards with stagger effect
+    const serviceCards = document.querySelectorAll('.service-card');
+    serviceCards.forEach((card, index) => {
+        card.style.animationDelay = `${index * 0.1}s`;
+    });
+
     // Animate expertise cards with stagger effect
     const expertiseCards = document.querySelectorAll('.expertise-card');
     expertiseCards.forEach((card, index) => {
@@ -33,15 +39,18 @@ document.addEventListener('DOMContentLoaded', function() {
         card.style.animationDelay = `${index * 0.1}s`;
     });
 
-    // Add smooth scroll behavior
+    // Add smooth scroll behavior with offset for sticky nav
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
             const target = document.querySelector(this.getAttribute('href'));
             if (target) {
-                target.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
+                const navHeight = document.querySelector('.quick-nav')?.offsetHeight || 0;
+                const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - navHeight - 20;
+
+                window.scrollTo({
+                    top: targetPosition,
+                    behavior: 'smooth'
                 });
             }
         });
@@ -123,7 +132,7 @@ document.addEventListener('DOMContentLoaded', function() {
     animateCounters();
 
     // Add interactive hover effect to cards
-    const cards = document.querySelectorAll('.expertise-card, .project-card');
+    const cards = document.querySelectorAll('.expertise-card, .project-card, .service-card');
     cards.forEach(card => {
         card.addEventListener('mouseenter', function(e) {
             this.style.transform = 'translateY(-8px) scale(1.02)';
@@ -154,37 +163,33 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Progress bar on scroll
-    const progressBar = document.createElement('div');
-    progressBar.className = 'scroll-progress';
-    document.body.appendChild(progressBar);
-
-    window.addEventListener('scroll', () => {
-        const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-        const scrolled = (window.pageYOffset / windowHeight) * 100;
-        progressBar.style.width = scrolled + '%';
-    });
-
-    // Add "Back to Top" button
-    const backToTop = document.createElement('button');
-    backToTop.className = 'back-to-top';
-    backToTop.innerHTML = '↑';
-    backToTop.title = 'Back to Top';
-    document.body.appendChild(backToTop);
-
-    window.addEventListener('scroll', () => {
-        if (window.pageYOffset > 300) {
-            backToTop.classList.add('visible');
-        } else {
-            backToTop.classList.remove('visible');
-        }
-    });
-
-    backToTop.addEventListener('click', () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
+    const progressBar = document.getElementById('scrollProgress');
+    if (progressBar) {
+        window.addEventListener('scroll', () => {
+            const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (window.pageYOffset / windowHeight) * 100;
+            progressBar.style.width = scrolled + '%';
         });
-    });
+    }
+
+    // "Back to Top" button functionality
+    const backToTop = document.getElementById('backToTop');
+    if (backToTop) {
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+
+        backToTop.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    }
 
     // Add ripple effect to buttons
     const buttons = document.querySelectorAll('.btn');

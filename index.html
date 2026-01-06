@@ -3,11 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Manuel Arce - Cloud Migration Specialist, Azure Solutions Architect, and Microsoft Certified Trainer">
-    <title>Manuel Arce | Azure Solutions Architect</title>
+    <meta name="description" content="Manuel Arce - Cloud Migration Specialist, Azure Solutions Architect, and Microsoft Certified Trainer with 20+ years experience. Expert in Azure infrastructure, Microsoft 365, Intune, and cloud migrations.">
+    <meta name="keywords" content="Azure Solutions Architect, Cloud Migration, Microsoft Intune, Azure Virtual Desktop, Microsoft 365, Azure Certified, MCT, Costa Rica">
+    <meta name="author" content="Manuel Arce">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Manuel Arce | Azure Solutions Architect & Cloud Migration Specialist">
+    <meta property="og:description" content="Helping businesses move to the cloud with confidence. 20+ years in tech, Azure expert, Microsoft Certified Trainer.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://manuelarce.com">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Manuel Arce | Azure Solutions Architect">
+    <meta name="twitter:description" content="Cloud Migration Specialist with deep expertise in Azure infrastructure, Microsoft 365, and Intune.">
+
+    <title>Manuel Arce | Azure Solutions Architect & Cloud Migration Specialist</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
     <header>
         <div class="container">
             <h1>Manuel Arce</h1>
@@ -15,24 +32,62 @@
         </div>
     </header>
 
+    <!-- Quick Navigation -->
+    <nav class="quick-nav" aria-label="Main navigation">
+        <div class="container">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#expertise">Expertise</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
     <main class="container">
-        <section class="intro">
+        <section id="about" class="intro fade-out">
             <h2>Hey, I'm Manuel 👋</h2>
             <p class="lead">I help businesses move to the cloud with confidence. With 20+ years in tech and deep expertise in Azure infrastructure, I've guided organizations through complex migrations, built multi-tenant architectures, and automated everything that should be automated.</p>
         </section>
 
-        <section class="what-i-do">
+        <section id="services" class="what-i-do fade-out">
             <h2>What I Do</h2>
-            <div class="services-list">
-                <p>☁️ <strong>Cloud Migration</strong> – Planning and executing seamless transitions to Azure</p>
-                <p>🖥️ <strong>Azure Virtual Desktop</strong> – Enterprise AVD deployments and optimization</p>
-                <p>🔧 <strong>Infrastructure Automation</strong> – PowerShell, KQL, Logic Apps, ARM/Bicep</p>
-                <p>📊 <strong>Azure Monitoring</strong> – Custom dashboards, workbooks, and alerting solutions</p>
-                <p>🏢 <strong>MSP/CSP Operations</strong> – Multi-tenant management with Azure Lighthouse</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">☁️</div>
+                    <h3>Cloud Migration</h3>
+                    <p>Planning and executing seamless transitions to Azure with proven methodologies and minimal downtime</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🖥️</div>
+                    <h3>Azure Virtual Desktop</h3>
+                    <p>Enterprise AVD deployments and optimization for secure, scalable remote work environments</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>Infrastructure Automation</h3>
+                    <p>PowerShell, KQL, Logic Apps, ARM/Bicep templates for efficient, repeatable deployments</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3>Azure Monitoring</h3>
+                    <p>Custom dashboards, workbooks, and alerting solutions to keep your environment healthy</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏢</div>
+                    <h3>MSP/CSP Operations</h3>
+                    <p>Multi-tenant management with Azure Lighthouse and partner certifications expertise</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🛡️</div>
+                    <h3>Security & Compliance</h3>
+                    <p>Zero Trust architectures, Microsoft Defender, and compliance framework implementation</p>
+                </div>
             </div>
         </section>
 
-        <section class="experience">
+        <section id="experience" class="experience fade-out">
             <h2>Professional Experience</h2>
 
             <div class="job">
@@ -53,43 +108,180 @@
             </div>
         </section>
 
-        <section class="expertise">
-            <h2>Technical Expertise</h2>
-            <div class="expertise-grid">
-                <div class="expertise-card">
-                    <div class="icon">☁️</div>
-                    <h3>Cloud Migration</h3>
-                    <p>Azure Migrate, BitTitan MigrationWiz, tenant-to-tenant migrations with up to 8,000 mailboxes</p>
-                </div>
-                <div class="expertise-card">
-                    <div class="icon">🖥️</div>
-                    <h3>Azure Virtual Desktop</h3>
-                    <p>Enterprise AVD deployments with Entra ID, Conditional Access, and FSLogix integration</p>
-                </div>
-                <div class="expertise-card">
-                    <div class="icon">🔧</div>
-                    <h3>Infrastructure Automation</h3>
-                    <p>PowerShell, Azure Resource Graph, KQL, Logic Apps, ARM/Bicep templates</p>
-                </div>
-                <div class="expertise-card">
-                    <div class="icon">🔒</div>
-                    <h3>Azure Security</h3>
-                    <p>Azure Firewall Premium, NSGs, Azure Bastion, Zero Trust architectures, PIM</p>
-                </div>
-                <div class="expertise-card">
-                    <div class="icon">🌐</div>
-                    <h3>Azure Networking</h3>
-                    <p>Hub-spoke topologies, ExpressRoute, VPN Gateway, SD-WAN, Azure Private DNS</p>
-                </div>
-                <div class="expertise-card">
-                    <div class="icon">📦</div>
-                    <h3>Microsoft 365</h3>
-                    <p>Exchange Online, Teams, SharePoint, Intune, Conditional Access, Compliance Policies</p>
-                </div>
+        <section id="expertise" class="expertise fade-out">
+            <h2>Expertise & Specializations</h2>
+
+            <div class="specialization-section">
+                <h3>Solutions Partner for Infrastructure (Azure)</h3>
+                <p>I help Cloud Solution Providers (CSPs) achieve Solutions Partner for Infrastructure accreditation, having successfully guided 4 organizations through the certification process. I bring deep expertise across all critical Azure infrastructure domains required for this designation.</p>
+
+                <h4>What This Accreditation Represents:</h4>
+                <p>This designation validates proven ability to design, implement, and manage enterprise-grade Azure infrastructure solutions. It demonstrates mastery in building resilient, secure, and cost-optimized cloud environments that align with Microsoft's best practices and frameworks.</p>
+
+                <h4>What Is Evaluated:</h4>
+                <ul>
+                    <li><strong>Azure Well-Architected Framework</strong> – Deep understanding of all five pillars: Reliability, Security, Cost Optimization, Operational Excellence, and Performance Efficiency</li>
+                    <li><strong>Cloud Adoption Framework (CAF)</strong> – Strategy, planning, readiness, migration, governance, and management across the entire cloud adoption lifecycle</li>
+                    <li><strong>Landing Zone Architecture</strong> – Enterprise-scale design patterns, hub-spoke topologies, network segmentation, and hybrid connectivity</li>
+                    <li><strong>Infrastructure as Code (IaC)</strong> – ARM templates, Bicep, Terraform, CI/CD automation with Azure DevOps and GitHub Actions</li>
+                    <li><strong>Monitoring & Operations</strong> – Azure Monitor, Log Analytics, AMBA (Azure Monitor Baseline Alerts), workbooks, and alert management</li>
+                    <li><strong>Security & Compliance</strong> – Azure Policy, RBAC, Azure Security Center, Microsoft Defender for Cloud, compliance frameworks</li>
+                    <li><strong>Disaster Recovery & Business Continuity</strong> – Backup strategies, Azure Site Recovery, high availability architectures</li>
+                </ul>
+
+                <h4>How I Can Help You:</h4>
+                <ul class="help-list">
+                    <li data-icon="🎯"><strong>Infrastructure Assessment</strong> – Evaluate your current environment against WAF pillars and identify optimization opportunities</li>
+                    <li data-icon="🏗️"><strong>Landing Zone Implementation</strong> – Design and deploy enterprise-ready Azure landing zones following CAF best practices</li>
+                    <li data-icon="🔄"><strong>Migration Planning & Execution</strong> – Assess workloads, plan migration waves, and execute seamless cloud transitions</li>
+                    <li data-icon="📊"><strong>Cost Optimization</strong> – Analyze spending patterns, implement reservation strategies, and optimize resource utilization</li>
+                    <li data-icon="🚨"><strong>Monitoring Strategy</strong> – Deploy comprehensive monitoring solutions with AMBA, custom alerts, and operational dashboards</li>
+                    <li data-icon="🔐"><strong>Governance Implementation</strong> – Establish Azure Policy frameworks, management groups, and compliance controls</li>
+                    <li data-icon="📚"><strong>Documentation & Knowledge Transfer</strong> – Create architecture diagrams, runbooks, and training for your teams</li>
+                </ul>
+            </div>
+
+            <div class="specialization-section">
+                <h3>Solutions Partner for Data & AI (Azure)</h3>
+                <p>Specialized expertise in building intelligent, data-driven solutions on Azure's comprehensive data and AI platform.</p>
+
+                <h4>What This Accreditation Represents:</h4>
+                <p>This designation validates the ability to architect, implement, and manage modern data platforms and AI solutions. It demonstrates expertise in transforming raw data into actionable insights and implementing AI capabilities that drive business value.</p>
+
+                <h4>What Is Evaluated:</h4>
+                <ul>
+                    <li><strong>Data Platform Modernization</strong> – Migration from legacy systems to cloud-native data platforms, SQL to Azure SQL/Cosmos DB transitions</li>
+                    <li><strong>Analytics Architecture</strong> – Azure Synapse Analytics, Data Lake Storage, Delta Lake, lakehouse architectures</li>
+                    <li><strong>Data Integration & ETL/ELT</strong> – Azure Data Factory, Synapse Pipelines, real-time and batch processing workflows</li>
+                    <li><strong>AI & Machine Learning</strong> – Azure Machine Learning, MLOps, model deployment, Azure Cognitive Services, Azure OpenAI Service</li>
+                    <li><strong>Business Intelligence</strong> – Power BI integration, semantic models, paginated reports, embedded analytics</li>
+                    <li><strong>Data Governance & Security</strong> – Microsoft Purview, data lineage, classification, compliance (GDPR, HIPAA), encryption strategies</li>
+                    <li><strong>Real-time Analytics</strong> – Stream Analytics, Event Hubs, real-time dashboards and alerting</li>
+                </ul>
+
+                <h4>How I Can Help You:</h4>
+                <ul class="help-list">
+                    <li data-icon="📊"><strong>Data Strategy & Assessment</strong> – Evaluate your data estate, identify modernization opportunities, and create roadmaps</li>
+                    <li data-icon="🏗️"><strong>Modern Data Platform Design</strong> – Architect scalable lakehouse solutions with Synapse, Data Lake, and Databricks</li>
+                    <li data-icon="🔄"><strong>Data Pipeline Development</strong> – Build robust ETL/ELT pipelines with Azure Data Factory and orchestration frameworks</li>
+                    <li data-icon="🤖"><strong>AI Solution Implementation</strong> – Deploy machine learning models, implement Azure OpenAI solutions, and enable generative AI capabilities</li>
+                    <li data-icon="📈"><strong>Business Intelligence Enablement</strong> – Create Power BI solutions, self-service analytics, and enterprise reporting frameworks</li>
+                    <li data-icon="🔒"><strong>Data Governance Programs</strong> – Implement Microsoft Purview, establish data cataloging, and ensure regulatory compliance</li>
+                    <li data-icon="⚡"><strong>Real-time Analytics Solutions</strong> – Build streaming data pipelines for IoT, log analytics, and real-time business intelligence</li>
+                </ul>
+            </div>
+
+            <div class="specialization-section">
+                <h3>Solutions Partner for Modern Work</h3>
+                <p>Expert-level knowledge in transforming workplace productivity through Microsoft 365 and modern collaboration technologies.</p>
+
+                <h4>What This Accreditation Represents:</h4>
+                <p>This designation validates expertise in deploying, managing, and optimizing Microsoft 365 environments that enable secure, productive, and collaborative work experiences. It demonstrates capability in modernizing workplace technology while maintaining security and compliance.</p>
+
+                <h4>What Is Evaluated:</h4>
+                <ul>
+                    <li><strong>Microsoft 365 Deployment & Administration</strong> – Tenant configuration, licensing optimization, service health monitoring, Exchange Online, SharePoint Online</li>
+                    <li><strong>Identity & Access Management</strong> – Azure Active Directory (Entra ID), Conditional Access policies, Multi-Factor Authentication, Privileged Identity Management</li>
+                    <li><strong>Security & Zero Trust</strong> – Microsoft Defender suite (Endpoint, Office 365, Identity), Security Compliance Center, threat protection</li>
+                    <li><strong>Collaboration Platforms</strong> – Microsoft Teams architecture, governance, telephony integration (Teams Phone), SharePoint site design, OneDrive policies</li>
+                    <li><strong>Endpoint & Device Management</strong> – Microsoft Intune, Windows Autopilot, application deployment, Mobile Device Management (MDM), co-management with ConfigMgr</li>
+                    <li><strong>Information Protection</strong> – Data Loss Prevention (DLP), sensitivity labels, retention policies, insider risk management</li>
+                    <li><strong>Compliance & Governance</strong> – Compliance Manager, eDiscovery, audit logging, regulatory standards (GDPR, HIPAA, ISO 27001)</li>
+                    <li><strong>Adoption & Change Management</strong> – User training, adoption metrics, communication strategies, champion programs</li>
+                </ul>
+
+                <h4>How I Can Help You:</h4>
+                <ul class="help-list">
+                    <li data-icon="🏢"><strong>Microsoft 365 Migration</strong> – Plan and execute migrations from on-premises Exchange, file servers, or competing platforms to Microsoft 365</li>
+                    <li data-icon="🔐"><strong>Zero Trust Implementation</strong> – Design and deploy Conditional Access policies, implement passwordless authentication, and establish identity governance</li>
+                    <li data-icon="👥"><strong>Teams Deployment & Optimization</strong> – Architect enterprise Teams environments, implement governance, deploy Teams Phone, and integrate with existing systems</li>
+                    <li data-icon="🖥️"><strong>Modern Endpoint Management</strong> – Transition from traditional imaging to Autopilot, implement Intune policies, and enable remote work capabilities</li>
+                    <li data-icon="🛡️"><strong>Security Posture Improvement</strong> – Deploy Microsoft Defender solutions, configure threat protection, and implement security baselines</li>
+                    <li data-icon="📋"><strong>Compliance Framework Setup</strong> – Configure DLP policies, implement retention strategies, and meet regulatory requirements</li>
+                    <li data-icon="📊"><strong>Adoption & Productivity Analysis</strong> – Measure usage patterns, identify adoption gaps, and drive user engagement with Microsoft 365 tools</li>
+                    <li data-icon="🔄"><strong>Hybrid Environment Integration</strong> – Connect on-premises Active Directory, implement hybrid identity, and enable seamless authentication</li>
+                </ul>
             </div>
         </section>
 
-        <section class="certifications">
+        <section id="intune" class="intune-expertise fade-out">
+            <h2>Microsoft Intune Expertise</h2>
+            <p class="lead">As a Microsoft Intune specialist, I help organizations modernize their endpoint management strategy and enable secure, flexible work environments. With extensive hands-on experience and comprehensive documentation across all Intune capabilities, I deliver end-to-end solutions that protect corporate data while empowering users.</p>
+
+            <div class="specialization-section">
+                <h4>Core Competencies:</h4>
+
+                <div style="margin-top: 20px;">
+                    <h4>📱 Device Enrollment & Provisioning</h4>
+                    <ul>
+                        <li>Windows Autopilot deployment (White Glove, self-deployment, user-driven)</li>
+                        <li>iOS/iPadOS automated enrollment via Apple Business Manager (ABM) and Apple School Manager (ASM)</li>
+                        <li>Android Enterprise enrollment (fully managed, work profile, dedicated devices)</li>
+                        <li>BYOD enrollment strategies and user self-service portals</li>
+                        <li>Bulk enrollment and automated device registration</li>
+                    </ul>
+                </div>
+
+                <div style="margin-top: 20px;">
+                    <h4>🔐 Compliance & Conditional Access</h4>
+                    <ul>
+                        <li>Device compliance policy design and implementation</li>
+                        <li>Conditional Access integration with Azure AD (Entra ID)</li>
+                        <li>Risk-based access controls and compliance remediation workflows</li>
+                        <li>Network fence and location-based policies</li>
+                        <li>Compliance reporting and alerting</li>
+                    </ul>
+                </div>
+
+                <div style="margin-top: 20px;">
+                    <h4>⚙️ Configuration Management</h4>
+                    <ul>
+                        <li>Configuration profiles for Windows, iOS/iPadOS, macOS, and Android</li>
+                        <li>Settings catalog and administrative templates</li>
+                        <li>OMA-URI custom configurations</li>
+                        <li>Wi-Fi, VPN, and certificate profiles (SCEP, PKCS)</li>
+                        <li>Email and connectivity profiles for seamless user experience</li>
+                    </ul>
+                </div>
+
+                <div style="margin-top: 20px;">
+                    <h4>📦 Application Management</h4>
+                    <ul>
+                        <li>Win32 app packaging and deployment with Intune Management Extension</li>
+                        <li>Microsoft Store for Business integration</li>
+                        <li>iOS/Android managed app deployment</li>
+                        <li>App configuration policies for LOB applications</li>
+                        <li>App protection policies (MAM) for containerized data security</li>
+                        <li>App update management and patching strategies</li>
+                    </ul>
+                </div>
+
+                <div style="margin-top: 20px;">
+                    <h4>🛡️ Security & Data Protection</h4>
+                    <ul>
+                        <li>Mobile Application Management (MAM) without device enrollment</li>
+                        <li>Data Loss Prevention (DLP) through app protection policies</li>
+                        <li>Encryption enforcement (BitLocker, FileVault)</li>
+                        <li>Windows Hello for Business and biometric authentication</li>
+                        <li>Microsoft Defender for Endpoint integration</li>
+                        <li>Attack surface reduction rules and endpoint security baselines</li>
+                    </ul>
+                </div>
+
+                <h4 style="margin-top: 30px;">How I Can Help:</h4>
+                <ul class="help-list">
+                    <li data-icon="🚀"><strong>Intune Implementation</strong> – Full tenant setup, policy design, and phased rollout strategies</li>
+                    <li data-icon="🔄"><strong>Migration Projects</strong> – Transition from SCCM/ConfigMgr to modern management with co-management</li>
+                    <li data-icon="📋"><strong>Policy Framework Development</strong> – Create compliance, configuration, and security baseline policies aligned with industry standards</li>
+                    <li data-icon="📱"><strong>Mobile Device Strategy</strong> – Design BYOD, COPE (Corporate-Owned, Personally Enabled), and COBO programs</li>
+                    <li data-icon="🔧"><strong>Troubleshooting & Optimization</strong> – Resolve enrollment issues, policy conflicts, and performance problems</li>
+                    <li data-icon="📚"><strong>Documentation & Training</strong> – Develop runbooks, admin guides, and end-user training materials</li>
+                    <li data-icon="🏢"><strong>Enterprise Deployment</strong> – Large-scale rollouts with Autopilot, user communication, and helpdesk preparation</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="certifications" class="certifications fade-out">
             <h2>Certifications</h2>
             <table class="cert-table">
                 <thead>
@@ -134,16 +326,17 @@
                 </tbody>
             </table>
             <div class="partner-designations">
-                <h3>Partner Designations</h3>
+                <h3>Microsoft Partner Designations</h3>
+                <p style="margin-bottom: 15px; color: var(--text-light);">Proven expertise in helping organizations achieve and maintain these prestigious Microsoft partner certifications:</p>
                 <ul>
-                    <li><strong>Solutions Partner for Infrastructure (Azure)</strong> – Successfully guided 4 organizations through certification</li>
-                    <li><strong>Solutions Partner for Data & AI (Azure)</strong></li>
-                    <li><strong>Solutions Partner for Modern Work</strong></li>
+                    <li><strong>Solutions Partner for Infrastructure (Azure)</strong> – Successfully guided 4 organizations through the certification process</li>
+                    <li><strong>Solutions Partner for Data & AI (Azure)</strong> – Advanced data platform and AI solution expertise</li>
+                    <li><strong>Solutions Partner for Modern Work</strong> – Microsoft 365 and collaboration platform mastery</li>
                 </ul>
             </div>
         </section>
 
-        <section class="projects">
+        <section id="projects" class="projects fade-out">
             <h2>Featured Projects</h2>
 
             <div class="project-card highlight">
@@ -179,7 +372,7 @@
             </div>
         </section>
 
-        <section class="contact">
+        <section id="contact" class="contact fade-out">
             <h2>Let's Connect</h2>
             <div class="contact-buttons">
                 <a href="https://www.linkedin.com/in/manuel-arce-35676759/" target="_blank" class="btn btn-linkedin">
@@ -203,8 +396,14 @@
     <footer>
         <div class="container">
             <p>&copy; 2025 Manuel Arce. All rights reserved.</p>
+            <p style="margin-top: 10px; opacity: 0.8;">Based in Costa Rica 🇨🇷 | Available for consulting and project work worldwide</p>
         </div>
     </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        ↑
+    </button>
 
     <script src="script.js"></script>
 </body>
