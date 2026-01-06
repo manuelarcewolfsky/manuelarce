@@ -14,9 +14,15 @@ I help businesses move to the cloud with confidence. With 20+ years in tech and 
 1
 ## Certifications
 
-- Microsoft Certified: Azure Solutions Architect Expert
-- Microsoft Certified: Azure Virtual Desktop Specialty
-- Microsoft Certified Trainer (MCT)
+| Certification | Number | Earned | Expires |
+|---------------|---------|---------|---------|
+| Microsoft Certified: Azure Network Engineer Associate | AAB1FD-9E03AA | May 11, 2025 | May 11, 2026 |
+| Microsoft Certified: Azure Solutions Architect Expert | B9B2FB-611YCF | Oct 12, 2020 | Oct 12, 2026 |
+| Microsoft Certified: Azure Virtual Desktop Specialty | DB85A3-9E9352 | Oct 21, 2022 | Oct 21, 2026 |
+| Microsoft Certified: Azure Fundamentals | BE529F-5T263D | Aug 20, 2020 | N/A |
+| Microsoft Certified Trainer (MCT) | - | - | - |
+
+### Partner Designations
 - **Solutions Partner for Infrastructure (Azure)** – Successfully passed 4 times
 - **Solutions Partner for Data & AI (Azure)**
 - **Solutions Partner for Modern Work**
