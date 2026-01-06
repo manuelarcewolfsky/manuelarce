@@ -11,7 +11,7 @@ I help businesses move to the cloud with confidence. With 20+ years in tech and 
 🔧 **Infrastructure Automation** – PowerShell, KQL, Logic Apps, ARM/Bicep  
 📊 **Azure Monitoring** – Custom dashboards, workbooks, and alerting solutions  
 🏢 **MSP/CSP Operations** – Multi-tenant management with Azure Lighthouse  
-
+1
 ## Certifications
 
 - Microsoft Certified: Azure Solutions Architect Expert
@@ -149,46 +149,6 @@ As a Microsoft Intune specialist, I help organizations modernize their endpoint 
 - 🔧 **Troubleshooting & Optimization** – Resolve enrollment issues, policy conflicts, and performance problems
 - 📚 **Documentation & Training** – Develop runbooks, admin guides, and end-user training materials
 - 🏢 **Enterprise Deployment** – Large-scale rollouts with Autopilot, user communication, and helpdesk preparation
-
-## Professional Experience
-
-### Manager, Persistent Systems | Remote | Sep 2023 – Sep 2025
-
-Led a high-performing team of Azure engineers delivering enterprise-level Microsoft consultancy services, driving operational excellence and transforming team performance from 12% to 56% utilization while generating $1.2M in revenue.
-
-**Leadership & Team Development:**
-- Transformed an unorganized team into a cohesive, high-performing unit through structured cross-training, knowledge sharing, and shadowing programs
-- Managed workforce planning including onboarding, training, and professional development across US and LATAM regions
-- Mentored engineers in understanding complex client requirements and provided ongoing post-onboarding support
-- Fostered a collaborative culture aligned with organizational values, driving both technical excellence and team morale
-
-**Client Relationship Management:**
-- Served as primary point of contact for assigned accounts, building strong, trust-based client relationships
-- Led client-facing meetings including Quarterly Business Reviews (QBRs) and monthly reviews, communicating service outcomes and improvement plans
-- Managed client communications with focus on timely conflict resolution and stakeholder satisfaction
-- Championed CSAT initiatives, developing action plans based on client feedback to improve satisfaction scores
-
-**Operational Excellence & Performance:**
-- Increased engineer utilization from 12% to 56% through proactive opportunity identification and optimized resource allocation
-- Monitored and exceeded KPIs, SLAs, and contractual obligations, consistently achieving performance metrics
-- Created a Microsoft DevOps solution to track and manage team activities, significantly enhancing operational efficiency
-- Drove continuous improvement through daily stand-ups, weekly performance meetings, and executive reporting
-- Delivered monthly performance reviews to Microsoft management with data-driven recommendations and insights
-
-**Technical Delivery & Collaboration:**
-- Partnered with Cloud Solution Architects and engineering teams to align technical delivery with client requirements
-- Personally handled complex engagements and deliveries during knowledge gaps to ensure project success
-- Collaborated with cross-functional stakeholders (HR, IT, Finance, Compliance) to ensure operational alignment
-- Managed risks and escalations proactively, ensuring timely resolution aligned with client expectations
-- Tracked and reduced operational costs while maintaining service quality and client satisfaction
-
-**Key Achievements:**
-- 📈 Increased team utilization by 367% (from 12% to 56%)
-- 💰 Generated $1.2M in current revenue through optimized resource management
-- 🎯 Consistently exceeded KPIs and SLAs across all managed accounts
-- 🤝 Built and unified a collaborative, high-performing engineering team
-- 🔧 Implemented DevOps tracking solution, improving team-wide efficiency
-- ⭐ Maintained high client satisfaction scores through proactive engagement and service excellence
 
 ## Currently Building
 
