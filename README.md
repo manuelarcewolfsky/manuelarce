@@ -30,7 +30,7 @@ I help businesses move to the cloud with confidence. With 20+ years in tech and 
 ## Expertise & Specializations
 
 ### Solutions Partner for Infrastructure (Azure)
-As a 4-time certified Solutions Partner for Infrastructure, I bring deep expertise across all critical Azure infrastructure domains.
+I help Cloud Solution Providers (CSPs) achieve Solutions Partner for Infrastructure accreditation, having successfully guided 4 organizations through the certification process. I bring deep expertise across all critical Azure infrastructure domains required for this designation.
 
 **What This Accreditation Represents:**
 This designation validates proven ability to design, implement, and manage enterprise-grade Azure infrastructure solutions. It demonstrates mastery in building resilient, secure, and cost-optimized cloud environments that align with Microsoft's best practices and frameworks.
@@ -155,6 +155,20 @@ As a Microsoft Intune specialist, I help organizations modernize their endpoint 
 - 🔧 **Troubleshooting & Optimization** – Resolve enrollment issues, policy conflicts, and performance problems
 - 📚 **Documentation & Training** – Develop runbooks, admin guides, and end-user training materials
 - 🏢 **Enterprise Deployment** – Large-scale rollouts with Autopilot, user communication, and helpdesk preparation
+
+## Professional Experience
+
+### Lunavi – Cloud Consultant & Principal Engineer
+
+Skilled cloud consultant and principal engineer delivering quality cloud migration and automation services, leveraging extensive experience and technical aptitude to ensure customer satisfaction.
+
+**Key Achievements:**
+- 🚀 **Led 30+ migrations** – Utilized various third-party tools, garnering exceptional success rates and positive customer feedback
+- 🛠️ **System Administration Excellence** – Provided senior-level support and expertise for complex problems, swiftly resolving escalations and system issues, resulting in minimized downtime and customer satisfaction
+- 🤝 **Customer Retention** – Fostered strong relationships, notably retaining three key customers by resolving issues and providing exceptional service
+- 📚 **Continuous Learning** – Seized opportunities for professional development, underscored by pursuit of improving automation skills to stay abreast of technologies and best practices
+- ✅ **Compliance Leadership** – Played a key role in contributing to compliance and the successful attainment of the Microsoft MSP certification
+- ⚡ **Automation Innovation** – Enhanced the efficiency and reliability of cloud deployments by implementing automation using Bicep
 
 ## Currently Building
 
