@@ -2,7 +2,7 @@
 
 **Cloud Migration Specialist | Azure Solutions Architect | Microsoft Certified Trainer**
 
-I help businesses move to the cloud with confidence. With 20+ years in tech and deep expertise in Azure infrastructure, I've guided organizations through complex migrations, built multi-tenant architectures, and automated everything that should be automated.
+I help businesses transform their IT infrastructure through strategic cloud adoption and modernization. With 20+ years of hands-on experience across Fortune 500 companies like Microsoft and Amazon, I bring deep technical expertise in Azure, AWS, and enterprise-scale architectures. From leading 30+ seamless cloud migrations to managing teams that drive $1.2M+ in revenue, I've built a proven track record of turning complex technical challenges into business opportunities. Whether it's architecting multi-tenant solutions, automating infrastructure with IaC, or guiding CSPs through Microsoft Partner certifications, I deliver results that matter—zero downtime migrations, accelerated project timelines, and enterprise-grade solutions that scale.
 
 ## What I Do
 
