@@ -267,4 +267,15 @@ Successfully migrated Active Directory from on-premise to the cloud, accomplishi
 
 ---
 
-*Based in Costa Rica 🇨🇷 | Available for consulting and project work*
+## Business Information
+
+🏢 **WolfSky Cloud LLC** – Registered in Wyoming, USA
+
+I operate through my US-registered Limited Liability Company, enabling me to enter into contracts directly with US businesses. This structure provides:
+
+- ✅ **Legal US Business Entity** – Fully registered Wyoming LLC for B2B contracting
+- ✅ **Direct Contracting** – Execute agreements directly with US companies without intermediaries
+- ✅ **Professional Invoicing** – Issue US-based invoices with proper tax documentation
+- ✅ **US Business Hours** – Available for EST/CST/PST time zones
+
+*Based in Costa Rica 🇨🇷 | US LLC in Wyoming 🇺🇸 | Available for consulting and project work worldwide*
