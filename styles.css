@@ -376,6 +376,17 @@ h2 {
     box-shadow: 0 6px 12px rgba(0, 120, 212, 0.3);
 }
 
+.btn-booking {
+    background: linear-gradient(135deg, #107C10, #00A36C);
+    color: white;
+}
+
+.btn-booking:hover {
+    background: linear-gradient(135deg, #0e6b0e, #008f5d);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(16, 124, 16, 0.3);
+}
+
 .location {
     margin-top: 20px;
     font-size: 1.1rem;
