@@ -264,7 +264,7 @@ Successfully migrated Active Directory from on-premise to the cloud, accomplishi
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/manuel-arce-35676759/)
 - 📧 [Email](mailto:manuel.arce@wolfskycloud.com)
-- 📅 [Book a Consultation](https://outlook.office365.com/owa/calendar/WolfskyCloudConsultation@wolfskycloud.com/bookings/)
+- 📅 [Book a Consultation](https://outlook.office.com/bookwithme/user/d5a69c8478364c85830fce4000dc5853@wolfskycloud.com?anonymous&ismsaljsauthenabled&ep=plink)
 
 ---
 
